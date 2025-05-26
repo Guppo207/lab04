@@ -1,31 +1,18 @@
-cmake_minimum_required(VERSION 3.4)
+cmake_minimum_required(VERSION 3.10)
+project(solver LANGUAGES CXX)
 
-project(
-    solver
-    VERSION 1.0
-    DESCRIPTION "Equation solver application"
-    LANGUAGES CXX
+add_executable(solve
+    equation.cpp
 )
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
-
-add_subdirectory(../formatter_ex_lib formatter_ex_lib)
-add_subdirectory(../solver_lib solver_lib)
-
-
-add_executable(solver equation.cpp)
-
-target_include_directories(solver
-    PUBLIC
-    ../formatter_ex_lib
-    ../solver_lib
-)
-
-
-target_link_libraries(solver
+target_include_directories(solve
     PRIVATE
-    formatter_ex_lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/../formatter_ex_lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/../solver_lib
+)
+
+target_link_libraries(solve
+    PRIVATE
+    formatter_ex
     solver_lib
 )

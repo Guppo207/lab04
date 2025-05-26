@@ -1,6 +1,0 @@
-/home/mordecai/workspace/Guppo207/lab03/formatter_ex_lib/build/CMakeFiles/formatter_ex_lib.dir
-/home/mordecai/workspace/Guppo207/lab03/formatter_ex_lib/build/CMakeFiles/edit_cache.dir
-/home/mordecai/workspace/Guppo207/lab03/formatter_ex_lib/build/CMakeFiles/rebuild_cache.dir
-/home/mordecai/workspace/Guppo207/lab03/formatter_ex_lib/build/formatter_lib_build/CMakeFiles/formatter_lib.dir
-/home/mordecai/workspace/Guppo207/lab03/formatter_ex_lib/build/formatter_lib_build/CMakeFiles/edit_cache.dir
-/home/mordecai/workspace/Guppo207/lab03/formatter_ex_lib/build/formatter_lib_build/CMakeFiles/rebuild_cache.dir
