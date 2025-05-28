@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.4)
 
-# Global project configuration
+
 project(
     cmake_project_suite
     VERSION 1.0.0
@@ -8,12 +8,12 @@ project(
     LANGUAGES CXX
 )
 
-# Compiler standards
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Project components
+
 foreach(component 
     formatter_lib
     formatter_ex_lib
